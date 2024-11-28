@@ -40,7 +40,7 @@ const UpdateListing = () => {
       const res = await fetch(`/api/listing/getListing/${listingId}`);
       const data = await res.json();
       if (data.success === false) {
-        console.log(data.message);
+        // console.log(data.message);
         return;
       }
       setformData(data);
@@ -88,7 +88,7 @@ const UpdateListing = () => {
         (snapshot) => {
           const progress =
             (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
-          console.log(`Upload is ${progress}% done`);
+          // console.log(`Upload is ${progress}% done`);
         },
 
         (error) => {
