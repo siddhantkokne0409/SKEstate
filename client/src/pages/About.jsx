@@ -10,7 +10,7 @@ export default function About() {
       </p>
       <p className='mb-4 text-slate-700'>Our team of agents has a wealth of experience and knowledge in the real estate industry, and we are committed to providing the highest level of service to our clients. We believe that buying or selling a property should be an exciting and rewarding experience, and we are dedicated to making that a reality for each and every one of our clients.</p>
       <div className='m-20 text-center'>
-      <img src="https://firebasestorage.googleapis.com/v0/b/sk-estate-ab3b3.appspot.com/o/Sk%20profile%20picture.jpg?alt=media&token=f7929a5e-8dc4-4608-ade8-0c93d03dabf5" alt="" className="mx-auto rounded-full h-72 w-72 object-cover cursor-pointer self-center m-10"/>
+      <img src="https://firebasestorage.googleapis.com/v0/b/sk-estate-ab3b3.appspot.com/o/Sk%20profile%20picture.jpg?alt=media&token=f7929a5e-8dc4-4608-ade8-0c93d03dabf5" alt="" className="mx-auto rounded-full h-32 w-32 sm:h-48 sm:w-48 md:h-72 md:w-72 object-cover cursor-pointer self-center m-10"/>
       <span className='font-bold text-slate-800'>Created By: Siddhant Kokane</span>
 
       </div>
